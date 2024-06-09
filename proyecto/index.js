@@ -13,5 +13,7 @@ app.listen(port,()=>{
 
   para especificar dentro de toda la entidad a cual me estoy refiriendo se usa :
   /clientes/:id/invoices/taxes/:invoiceId
+  se puede hacer una busqueda más extensa de la siguiente manera
+  /clientes/:id/invoices/taxes/:invoiceId/taxis/:taxId
   
 */
