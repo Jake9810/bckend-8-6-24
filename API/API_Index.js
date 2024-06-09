@@ -50,6 +50,8 @@ express is a minimal and flexible node.js web application framework that provide
       dependencias
     alternativas
    comando npm init -> inicializa proyecto nuevo en el cual se puede comvertir en un paqute si es lo que se      quiere
+
+   
   
    
 */
