@@ -36,5 +36,20 @@ express is a minimal and flexible node.js web application framework that provide
   *no es todo el backend -rutas, middlewares, manejo de peticiones
   *extensible
   *vs http module
-
+  npm (www.npmjs.org)
+    es instalado a la par de node
+    gestor de paquetes
+    registro publico
+    creación de proyectos
+    package.json
+      contenido
+      scripts
+      colaboración 
+       punto de inicio
+    package-lock.json
+      dependencias
+    alternativas
+   comando npm init -> inicializa proyecto nuevo en el cual se puede comvertir en un paqute si es lo que se      quiere
+  
+   
 */
