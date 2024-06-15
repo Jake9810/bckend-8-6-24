@@ -4,6 +4,27 @@ const express=require('express');
 const app=express();
 
 const port=3000;
+const clientes ={
+  c1:{
+    nombre:'Juan',
+    apellido:'Perez',
+    spendAmount:'30'
+  }
+}
+
+app.get('/clientes',(req,res)=>{
+  res.status(200).json(clientes,
+                      message: 'lista de clientes'');
+});
+
+app.post('/clientes',(req,res)=>{
+  const info=req.body; //información
+  const clientsAmount =(Object.keys(clientes).length)+1;
+  res.status(201).json(clientes,
+                      mesage: 'lista de clientes actualizada');
+});
+
+
 app.listen(port,()=>{
   console.log('server is running on port',port);
 })
