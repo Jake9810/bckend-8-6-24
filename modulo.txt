@@ -1,0 +1,2 @@
+Patrón de diseño module
+las tareas se suben aun git y se envian por correo, se envian por correo los links hay foto
